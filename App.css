@@ -1,0 +1,125 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.nav-bar{
+  background-color: cornflowerblue;
+  padding: 20px 32px;
+  display: flex;
+  align-items: center;
+  
+}
+.nav-bar img{
+margin-right: 650px;
+}
+.nav-bar a{
+  color: white;
+  margin-right: 16px;
+  text-decoration: none;
+}
+.nav-bar a.active{
+  font-weight: 12PX;
+  background-color:lightblue;
+  padding: 20px;
+}
+.btn-events{
+  color: white;
+  background-color:cornflowerblue;
+  padding: 20px 15px;
+  border: none;
+}
+.details{
+  margin-left: 0;
+}
+
+.img{
+position: relative;
+}
+
+.content{
+  position: absolute;
+top: 17%;
+left: 0;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 25px;
+}
+.hmimg{
+  position: relative;
+
+}
+.title{
+  position: absolute;
+  z-index: 10;
+  top: 17%;
+  left: 30%;
+  color:white;
+}
+.types{
+  position: absolute;
+  z-index: 50;
+  top:50% ;
+  left: 40%;
+  color: white;
+}
+.li{
+  position: absolute;
+  z-index: 50;
+  top: 55%;
+  left: 43%;
+  color: seashell;
+  font-size: 30px;
+}
+.contact{
+  color: white;
+  background-color:rgba(0, 0, 0, 0.808);
+  padding:10px 50px;
+}
+  
+  
+.achiv{
+  padding: 30px 0px;
+  border: solid;
+  
+  
+
+
+}
